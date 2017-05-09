@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 857.0, 269.0, 735.0, 525.0 ],
+		"rect" : [ 325.0, 162.0, 857.0, 575.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 60.0, 353.0, 119.0, 22.0 ],
+					"patching_rect" : [ 604.5, 67.0, 164.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ son 141.wav"
+					"text" : "buffer~ piste1 dinosaure.wav"
 				}
 
 			}
@@ -55,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 13.0, 92.0, 20.0 ],
+					"patching_rect" : [ 302.0, 33.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "bang : stop"
 				}
@@ -70,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.0, 40.0, 30.0, 30.0 ],
+					"patching_rect" : [ 333.0, 67.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.0, 8.0, 62.0, 20.0 ],
+					"patching_rect" : [ 418.0, 33.0, 62.0, 20.0 ],
 					"style" : "",
 					"text" : "0/1 : loop"
 				}
@@ -93,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 13.0, 92.0, 20.0 ],
+					"patching_rect" : [ 188.0, 33.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "bang : lecture"
 				}
@@ -106,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 234.0, 164.0, 34.0, 22.0 ],
+					"patching_rect" : [ 246.0, 221.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -119,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.0, 246.0, 50.0, 22.0 ],
+					"patching_rect" : [ 418.0, 276.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "loop $1"
 				}
@@ -134,7 +134,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 503.0, 47.0, 30.0, 30.0 ],
+					"patching_rect" : [ 438.0, 67.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -148,7 +148,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 40.0, 30.0, 30.0 ],
+					"patching_rect" : [ 219.0, 67.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -160,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 369.0, 246.0, 29.5, 22.0 ],
+					"patching_rect" : [ 353.0, 276.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -174,7 +174,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 365.0, 461.0, 30.0, 30.0 ],
+					"patching_rect" : [ 361.0, 484.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -187,7 +187,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 461.0, 30.0, 30.0 ],
+					"patching_rect" : [ 302.0, 484.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -199,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 246.0, 29.5, 22.0 ],
+					"patching_rect" : [ 289.0, 276.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -212,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 246.0, 29.5, 22.0 ],
+					"patching_rect" : [ 246.0, 276.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -225,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 260.25, 296.0, 33.0, 22.0 ],
+					"patching_rect" : [ 262.25, 334.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "sig~"
 				}
@@ -238,7 +238,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 283.25, 360.0, 87.0, 22.0 ],
+					"patching_rect" : [ 277.25, 395.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -255,7 +255,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ son 2"
+					"text" : "groove~ piste1 2"
 				}
 
 			}
