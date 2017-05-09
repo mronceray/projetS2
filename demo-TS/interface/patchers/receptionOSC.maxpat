@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 701.0, 183.0, 640.0, 480.0 ],
+		"rect" : [ 38.0, 292.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,55 +38,41 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.0, 261.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 285.0, 201.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 220.0, 172.0, 174.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 259.0, 58.0, 99.0, 22.0 ],
 					"style" : "",
-					"text" : "receptionAudioReseau.maxpat"
+					"text" : "udpreceive 7500"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "receptionAudioReseau.maxpat",
-				"bootpath" : "~/Desktop/projetS2-master/demo-TS/interface/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
