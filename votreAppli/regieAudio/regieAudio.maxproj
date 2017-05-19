@@ -1,9 +1,9 @@
 {
 	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : 3573048016,
-	"modificationdate" : 3573048022,
-	"viewrect" : [ 393.0, 132.0, 300.0, 500.0 ],
+	"creationdate" : -721919280,
+	"modificationdate" : -716918390,
+	"viewrect" : [ 167.0, 139.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,34 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"mauvais.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"bon.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 
 		}
