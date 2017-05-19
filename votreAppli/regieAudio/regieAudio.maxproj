@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -716918390,
+	"modificationdate" : -716917405,
 	"viewrect" : [ 167.0, 139.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,6 +40,11 @@
 			}
 ,
 			"bon.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"suspens.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
