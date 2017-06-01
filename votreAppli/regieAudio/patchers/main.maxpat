@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 152.0, 1480.0, 480.0 ],
+		"rect" : [ 183.0, 334.0, 1496.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,9 +116,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1028.0, 361.5, 152.0, 22.0 ],
+					"patching_rect" : [ 1028.0, 361.5, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat"
 				}
 
 			}
@@ -213,9 +213,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 407.5, 152.0, 22.0 ],
+					"patching_rect" : [ 558.0, 407.5, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat"
 				}
 
 			}
@@ -322,9 +322,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 380.5, 152.0, 22.0 ],
+					"patching_rect" : [ 251.0, 380.5, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat"
 				}
 
 			}
@@ -637,7 +637,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "envoiAudioReseau.maxpat",
+				"name" : "moduleEnvoiAudio.maxpat",
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1

@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715800156,
+	"modificationdate" : -715796491,
 	"viewrect" : [ 167.0, 139.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,12 +26,12 @@
 				"local" : 1
 			}
 ,
-			"receptionAudioReseau.maxpat" : 			{
+			"EffetAudio1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"EffetAudio1.maxpat" : 			{
+			"receptionAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -42,6 +42,11 @@
 			}
 ,
 			"mainEffetAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
