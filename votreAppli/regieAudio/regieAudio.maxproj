@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715801243,
+	"modificationdate" : -715791239,
 	"viewrect" : [ 24.0, 173.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"syntheseSonore.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"syntheseSoustractive.maxpat" : 			{
@@ -41,8 +46,31 @@
 				"local" : 1
 			}
 ,
-			"syntheseSonore.maxpat" : 			{
+			"mixageAudio.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"suspens.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"mauvais.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"bon.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"brutageApplaudissement.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 
