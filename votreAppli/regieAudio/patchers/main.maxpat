@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 183.0, 334.0, 1496.0, 480.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 9,
+					"outlettype" : [ "bang", "bang", "int", "bang", "bang", "int", "bang", "bang", "int" ],
+					"patching_rect" : [ 602.5, 28.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "receptionOSC.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 644.0, 512.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "EffetAudio2.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 801.0, 100.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1052.0, 340.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -55,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 793.0, 282.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1044.0, 522.0, 114.0, 22.0 ],
 					"style" : "",
 					"text" : "EffetAudio1.maxpat"
 				}
@@ -68,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 757.0, 70.0, 60.0, 22.0 ],
+					"patching_rect" : [ 1006.0, 268.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -80,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 920.0, 51.0, 34.0, 20.0 ],
+					"patching_rect" : [ 1156.0, 222.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -92,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 777.0, 28.0, 34.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 218.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "play"
 				}
@@ -105,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 996.0, 298.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1247.0, 538.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -116,7 +142,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1028.0, 361.5, 153.0, 22.0 ],
+					"patching_rect" : [ 1279.0, 601.5, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleEnvoiAudio.maxpat"
 				}
@@ -129,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 925.0, 87.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1162.0, 247.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -142,7 +168,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1026.0, 43.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1267.0, 199.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -153,7 +179,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 801.0, 380.5, 45.0, 45.0 ],
+					"patching_rect" : [ 1052.0, 620.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -165,7 +191,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 789.0, 182.0, 193.0, 22.0 ],
+					"patching_rect" : [ 1040.0, 422.0, 193.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio.maxpat suspens.wav"
 				}
@@ -177,7 +203,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 51.0, 34.0, 20.0 ],
+					"patching_rect" : [ 693.0, 199.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -189,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 51.0, 34.0, 20.0 ],
+					"patching_rect" : [ 611.0, 199.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "play"
 				}
@@ -202,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 646.0, 309.0, 24.0, 24.0 ],
+					"patching_rect" : [ 803.0, 540.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -213,7 +239,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 407.5, 153.0, 22.0 ],
+					"patching_rect" : [ 777.0, 638.5, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleEnvoiAudio.maxpat"
 				}
@@ -226,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 590.0, 87.0, 24.0, 24.0 ],
+					"patching_rect" : [ 733.0, 238.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -238,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 506.0, 91.0, 24.0, 24.0 ],
+					"patching_rect" : [ 649.0, 242.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -251,7 +277,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 691.0, 43.0, 24.0, 24.0 ],
+					"patching_rect" : [ 836.0, 238.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -262,7 +288,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.0, 396.0, 45.0, 45.0 ],
+					"patching_rect" : [ 644.0, 627.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -274,7 +300,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 454.0, 182.0, 168.0, 22.0 ],
+					"patching_rect" : [ 611.0, 413.0, 168.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio.maxpat bon.wav"
 				}
@@ -286,7 +312,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 51.0, 34.0, 20.0 ],
+					"patching_rect" : [ 284.5, 201.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -298,7 +324,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 51.0, 34.0, 20.0 ],
+					"patching_rect" : [ 204.0, 199.0, 34.0, 20.0 ],
 					"style" : "",
 					"text" : "play"
 				}
@@ -311,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 339.0, 282.0, 24.0, 24.0 ],
+					"patching_rect" : [ 479.0, 512.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -322,7 +348,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 380.5, 153.0, 22.0 ],
+					"patching_rect" : [ 350.0, 616.5, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleEnvoiAudio.maxpat"
 				}
@@ -335,7 +361,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 168.0, 87.0, 24.0, 24.0 ],
+					"patching_rect" : [ 307.0, 238.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -347,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 84.0, 91.0, 24.0, 24.0 ],
+					"patching_rect" : [ 224.0, 238.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -360,7 +386,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 269.0, 43.0, 24.0, 24.0 ],
+					"patching_rect" : [ 414.5, 218.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -371,7 +397,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 369.0, 45.0, 45.0 ],
+					"patching_rect" : [ 279.0, 605.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -383,7 +409,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 32.0, 182.0, 193.0, 22.0 ],
+					"patching_rect" : [ 185.0, 413.0, 193.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio.maxpat mauvais.wav"
 				}
@@ -414,6 +440,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -509,16 +544,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
@@ -531,6 +557,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -576,6 +620,87 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 2 ]
 				}
 
 			}
@@ -659,6 +784,22 @@
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "EffetAudio2.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "receptionOSC.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
